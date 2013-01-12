@@ -1,0 +1,40 @@
+movie comments classification
+==============================
+
+how to use:
+------------
+
+run the main.py using fallowing command in Linux.
+	
+	python main.py
+
+then you will see a 'menu' that will help you to choose actions. first you need to train 
+the applation. two files containing data sets of positive and negative comments are already
+provided with this . choose the "train" from the menu and enter that two file names to train. if you can use your own data sets. after that you can test the application. you can use two test files that are provided with this. 
+
+the record and load actions will backup and restore the trained data in to two files 'positive.data' and 'negative.data' in data folder. you can train the app and  record the data in this files so that next time you use this app you can load data with out training again.
+ 
+data set is downloaded from, http://www.cs.cornell.edu/people/pabo/movie-review-data/ . more inf0 on the method used, http://en.wikipedia.org/wiki/Bag-of-words_model
+
+more inf0:
+-----------
+
+	tcg.galahena@gmail.com
+	http://www.inf0warri0r.blogspot.com
+
+license:
+----------
+
+     Copyright 2013 Tharindra Galahena
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+* You should have received a copy of the GNU General Public License along with
+This program. If not, see http://www.gnu.org/licenses/.
+
